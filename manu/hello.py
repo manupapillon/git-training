@@ -1,4 +1,9 @@
 #!/usr/bin/env python
 
-print "Hello !!"
+import sys
+
+if len(sys.argv)>1:
+   print "Hello %s !!"%sys.argv[1]
+else:
+   print "Who are you ??"
 
